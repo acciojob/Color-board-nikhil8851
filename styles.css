@@ -2,8 +2,8 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(10, 20px);
-    grid-template-rows: repeat(40, 30px);
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(40, 40px);
     gap: 5px;
     width: 840px; /* Adjust width to fit 20x40 grid */
     margin: 40px auto; /* Center container */
