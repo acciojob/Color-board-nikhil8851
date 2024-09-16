@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(40, 40px);
+    gap: 5px;
+    width: 840px; /* Adjust width to fit 20x40 grid */
+    margin: 40px auto; /* Center container */
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease;
+}
+
+.square.hovered {
+    background-color: #87CEEB; /* Change to desired hover color */
+    transition: background-color 1s ease-out; /* Smooth transition out */
+}
