@@ -15,6 +15,6 @@ for (let i = 0; i < 800; i++) {
 
 // Function to generate random color
 function getRandomColor() {
-    const colors = ['blue', 'black', 'yellow', 'tomato', 'green']; // Add more colors as needed
+    const colors = ['blue', 'black', 'yellow', 'tomato', 'green','red','orange','gray']; // Add more colors as needed
     return colors[Math.floor(Math.random() * colors.length)];
 }
